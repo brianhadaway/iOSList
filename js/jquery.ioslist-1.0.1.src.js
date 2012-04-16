@@ -7,7 +7,7 @@
 	};	
 	methods = {};
 	_methods = {
-		init: function( options ){
+		init: function(options){
 			var $listWrapper,
 				$fakeHeader,
 				$listContainer,
@@ -55,6 +55,9 @@
 						offscreenElement = topElement;
 					}
 					i++;
+					if(i >= elems.length){
+						break;
+					}
 				}
 				
 				if(topElementBottom < 0 && topElementBottom > -topElement.headerHeight) {
@@ -70,7 +73,7 @@
 				if(topElement){
 					$fakeHeader.text(topElement.headerText);
 				}
-		}
+			}
 		}
 	};
 	
