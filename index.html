@@ -31,10 +31,97 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h3>
-<a name="ioslist" class="anchor" href="#ioslist"><span class="octicon octicon-link"></span></a>iOSList</h3>
+        <h1>
+<a name="ioslist-200" class="anchor" href="#ioslist-200"><span class="octicon octicon-link"></span></a>iOSList 2.0.0</h1>
 
-<p>iOS-style sticky headers with jQuery.</p>
+<p>iOS-style sticky headers with jQuery</p>
+
+<p>iOSList is a jQuery plugin that creates iOS-style sticky headers similar to those seen in the Music and Contacts apps on Apple devices. It is tested to work in the following browsers:</p>
+
+<ul>
+<li>Mac (Chrome 10+, Safari 4+, Firefox 3.5+, Opera)</li>
+<li>PC (Chrome 10+, Safari 4+, Firefox3.5+, Opera, IE6+)</li>
+<li>iOS 3+ (Safari Mobile)</li>
+<li>Android 2.2+ (Chrome, Firefox 4, Opera 11)</li>
+</ul><h2>
+<a name="getting-started" class="anchor" href="#getting-started"><span class="octicon octicon-link"></span></a>Getting Started</h2>
+
+<p>Download the <a href="https://github.com/brianhadaway/iOSList/zipball/master">production version</a>.</p>
+
+<p>In your web page:</p>
+
+<div class="highlight highlight-html"><pre><span class="c">&lt;!-- in the head tag --&gt;</span>
+<span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"css/jquery.ioslist.css"</span> <span class="nt">/&gt;</span>
+
+<span class="c">&lt;!-- somewhere in the body tag --&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"list1"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ioslist-group-container"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ioslist-group-header"</span><span class="nt">&gt;</span>A<span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;ul&gt;</span>
+            <span class="nt">&lt;li&gt;</span>Afghanistan<span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;li&gt;</span>Akrotiri<span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;li&gt;</span>Albania<span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;li&gt;</span>Algeria<span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;li&gt;</span>American Samoa<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;/ul&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ioslist-group-container"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ioslist-group-header"</span><span class="nt">&gt;</span>B<span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;ul&gt;</span>
+            <span class="nt">&lt;li&gt;</span>Bahamas, The<span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;li&gt;</span>Bahrain<span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;li&gt;</span>Bangladesh<span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;li&gt;</span>Barbados<span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;li&gt;</span>Bassas da India<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;/ul&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ioslist-group-container"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ioslist-group-header"</span><span class="nt">&gt;</span>C<span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;ul&gt;</span>
+            <span class="nt">&lt;li&gt;</span>Cambodia<span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;li&gt;</span>Cameroon<span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;li&gt;</span>Canada<span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;li&gt;</span>Cape Verde<span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;li&gt;</span>Cayman Islands<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;/ul&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="c">&lt;!-- near closing body tag --&gt;</span>
+<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"js/jquery.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"js/jquery.ioslist.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;script&gt;</span>
+        <span class="nx">$</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+            <span class="nx">$</span><span class="p">(</span><span class="s2">"#list1"</span><span class="p">).</span><span class="nx">ioslist</span><span class="p">();</span>
+        <span class="p">});</span>
+<span class="nt">&lt;/script&gt;</span>
+</pre></div>
+
+<h2>
+<a name="documentation" class="anchor" href="#documentation"><span class="octicon octicon-link"></span></a>Documentation</h2>
+
+<h3>
+<a name="configuration-options--their-defaults" class="anchor" href="#configuration-options--their-defaults"><span class="octicon octicon-link"></span></a>Configuration Options &amp; Their Defaults</h3>
+
+<p><a href="https://github.com/TODO" class="user-mention">@TODO</a></p>
+
+<h2>
+<a name="contributing" class="anchor" href="#contributing"><span class="octicon octicon-link"></span></a>Contributing</h2>
+
+<p>In lieu of a formal styleguide, take care to maintain the existing coding style.</p>
+
+<p><em>Also, please don't edit JS files in the "dist" subdirectory as they are generated via grunt. You'll find source code in the "src" subdirectory!</em></p>
+
+<h2>
+<a name="release-history" class="anchor" href="#release-history"><span class="octicon octicon-link"></span></a>Release History</h2>
+
+<p><a href="https://github.com/brianhadaway/iOSList/releases">Release History</a></p>
+
+<h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>Copyright (c) 2014 Brian Hadaway
+Licensed under the MIT license.</p>
       </section>
     </div>
 
