@@ -1,0 +1,26 @@
+{
+    "name": "iOSList",
+    "version": "2.0.0",
+    "homepage": "http://brianhadaway.github.io/iOSList",
+    "authors": [
+        "Brian Hadaway <brianhadaway@gmail.com>"
+    ],
+    "description": "iOS-style Sticky Headers with jQuery",
+    "main": "src/jquery.ubaplayer.js",
+    "keywords": [
+        "sticky headers",
+        "jQuery",
+        "iOS contact list"
+    ],
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "jquery": "~2.0.3"
+    }
+}
