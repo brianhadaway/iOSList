@@ -67,23 +67,7 @@ In your web page:
 
 ###Configuration Options & Their Defaults
 
-* audioButtonClass:         'ubaplayer-button',
-* autoPlay:                 null,
-* codecs:                   [{name:"OGG", codec: 'audio/ogg; codecs="vorbis"'}, {name:"MP3", codec: 'audio/mpeg'}],
-* continuous:               false,
-* controlsClass:            'ubaplayer-controls',
-* extension:                null,
-* fallbackExtension:        '.mp3',
-* fallbackFunctions:        { play: null, pause: null, resume: null, error: null },
-* flashAudioPlayerPath:     'swf/player.swf',
-* flashExtension:           '.mp3',
-* flashObjectID:            'ubaplayer-flash',
-* loadingClass:             'ubaplayer-loading',
-* loop:                     false,
-* playerContainer:          "ubaplayer-container",
-* playingClass:             "ubaplayer-playing",
-* swfobjectPath:            "js/swfobject.js",
-* volume:                   0.5
+@TODO
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style.
