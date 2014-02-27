@@ -47,14 +47,12 @@
 }
 
 /* Demo Styling */
-body {
-	font: normal 20px Helvetica, Arial, sans-serif;
-	margin: 0;
-}
 
 #list1 {
+	font: normal 20px Helvetica, Arial, sans-serif;
+	margin: 0;
 	height: 300px;
-	margin: 100px;
+	margin: 50px;
 	overflow: visible;
 	position: relative;
 	width: 300px;
