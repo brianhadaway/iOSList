@@ -7,6 +7,7 @@
     <meta name="description" content="iOSList : The jQuery iOS (iPhone/iPad/iPod) Alphabetical Contact List" />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" href="//github.com/brianhadaway/iOSList/blob/master/dist/css/jquery.ioslist.css" />
 
     <title>iOSList</title>
   </head>
@@ -43,7 +44,50 @@
 <li>PC (Chrome 10+, Safari 4+, Firefox3.5+, Opera, IE6+)</li>
 <li>iOS 3+ (Safari Mobile)</li>
 <li>Android 2.2+ (Chrome, Firefox 4, Opera 11)</li>
-</ul><h2>
+</ul>
+
+<h2>Demo</h2>
+<div id="list1">
+    <div class="ioslist-group-container">
+        <div class="ioslist-group-header">A</div>
+        <ul>
+            <li>Afghanistan</li>
+            <li>Akrotiri</li>
+            <li>Albania</li>
+            <li>Algeria</li>
+            <li>American Samoa</li>
+        </ul>
+    </div>
+    <div class="ioslist-group-container">
+        <div class="ioslist-group-header">B</div>
+        <ul>
+            <li>Bahamas, The</li>
+            <li>Bahrain</li>
+            <li>Bangladesh</li>
+            <li>Barbados</li>
+            <li>Bassas da India</li>
+        </ul>
+    </div>
+    <div class="ioslist-group-container">
+        <div class="ioslist-group-header">C</div>
+        <ul>
+            <li>Cambodia</li>
+            <li>Cameroon</li>
+            <li>Canada</li>
+            <li>Cape Verde</li>
+            <li>Cayman Islands</li>
+        </ul>
+    </div>
+</div>
+<script src="//github.com/brianhadaway/iOSList/blob/master/dist/js/jquery.min.js"></script>
+<script src="//github.com/brianhadaway/iOSList/blob/master/dist/js/jquery.ioslist.js"></script>
+<script>
+        $(function(){
+            $("#list1").ioslist();
+        });
+</script>
+
+<h2>
 <a name="getting-started" class="anchor" href="#getting-started"><span class="octicon octicon-link"></span></a>Getting Started</h2>
 
 <p>Download the <a href="https://github.com/brianhadaway/iOSList/zipball/master">production version</a>.</p>
