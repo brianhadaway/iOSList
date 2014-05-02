@@ -1,0 +1,30 @@
+{
+"name": "ioslist",
+"version":"2.0.0",
+"title": "iOSList",
+"description": "The jQuery iOS (iPhone/iPad/iPod) Contact List with Sticky Headers.",
+"keywords": [
+"jquery",
+"plugin",
+"sticky headers",
+"html5",
+"iOS"
+],
+"homepage": "http://brianhadaway.github.io/iOSList/",
+"author": {
+"name":"Brian Hadaway",
+"url": "http://brianhadaway.com"
+},
+"bugs": "https://github.com/brianhadaway/iOSList/issues",
+"licenses": [
+{
+"type": "MIT",
+"url": "https://github.com/jstayton/jquery-manifest/blob/master/LICENSE-MIT"
+}
+],
+"dependencies": {
+"jquery": ">=1.8"
+},
+"docs": "https://github.com/brianhadaway/UbaPlayer/blob/master/README.md",
+"demo": "http://brianhadaway.github.io/iOSList/"
+}
