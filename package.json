@@ -3,6 +3,7 @@
     "title": "iOSList",
     "description": "iOS-style Sticky Headers with jQuery.",
     "version": "2.0.0",
+    "main": "src/jquery.ubaplayer.js",
     "homepage": "https://brianhadaway.github.io/iOSList",
     "author": {
         "name": "Brian Hadaway",
