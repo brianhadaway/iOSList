@@ -1,4 +1,4 @@
-#  iOSList 2.0.1
+#  iOSList 2.0.2
 
 iOS-style sticky headers with jQuery
 
