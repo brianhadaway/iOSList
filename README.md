@@ -64,6 +64,13 @@ In your web page:
 ```
 
 ## Documentation
+###refreshElements
+```
+$('.my-list').ioslist().on('ajax:success', function() {
+  // after adding new elements to the DOM
+  $(this).data('instance').refreshElements();
+});
+```
 
 ###Configuration Options & Their Defaults
 
