@@ -64,7 +64,7 @@ In your web page:
 ```
 
 ## Documentation
-###refreshElements
+### refreshElements
 ```
 $('.my-list').ioslist().on('ajax:success', function() {
   // after adding new elements to the DOM
@@ -72,7 +72,7 @@ $('.my-list').ioslist().on('ajax:success', function() {
 });
 ```
 
-###Configuration Options & Their Defaults
+### Configuration Options & Their Defaults
 
 @TODO
 
